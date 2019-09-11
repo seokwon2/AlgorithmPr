@@ -19,5 +19,6 @@ public class Algorithm_B_03 {
 				SW = 0; //위와 같은이유로 sw값을 변경해 줍니다
 			}		
 		}while(i<100);
+		System.out.println(j);
 	}
 }
