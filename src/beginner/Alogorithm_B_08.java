@@ -1,6 +1,8 @@
 package beginner;
 
 //피보나치 수열
+//세번째 항 구하고 합에 값 누적 시키고 카운트 증가시키고 
+//지정한 횟수에 만족되지 않았을경우 위 구간을 반복하면서 값을 찾아나가는 수열
 public class Alogorithm_B_08 {
 	public static void main(String[] ar) {
 		int A = 1;
