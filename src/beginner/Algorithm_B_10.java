@@ -10,7 +10,7 @@ public class Algorithm_B_10 {
 
 		int i = Input; // 
 
-		for (int k = 2; k <= i; k++) {
+		for (int k = 2; k <= i; k++) { //math.sqrt() 제곱근 함수 이용해서 구할수 있음
 			if (Input % k == 0) { // 나머지가 0인지 확인
 				if (Input == k) { // 입력받은 값과  나머지가 0이 나오게 한 k값을 확인해서 그수가 같다면 소수
 					System.out.println("소수");
