@@ -16,7 +16,7 @@ public class Alogorithm_B_08 {
 		// CNT도 마찬가지로 이미 1,1이 채워져 있음
 
 		do {
-			C = A + B;
+			C = A + B; //n >= 3 일때 n-2 번째항과 n-1번째 항의 합을 저장
 			HAP = HAP + C;
 			CNT++;
 			A = B; // 자리 바꿔줌을 통해서 1,1을 갖고 있던 a와 b가
